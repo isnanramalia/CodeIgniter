@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<?= $this->extend('layout/template'); ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-
-<body>
-    <h1>This is home</h1>
-</body>
-
-</html>
+<?= $this->section('content'); ?>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Hello World hehe</h1>
+        </div>
+    </div>
+</div>

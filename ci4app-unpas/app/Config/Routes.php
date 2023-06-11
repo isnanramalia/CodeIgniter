@@ -36,6 +36,8 @@ $routes->get('/account', 'Account\Register::index');
 
 // routes utk folder pages
 $routes->get('/pages', 'pages::index');
+$routes->get('/pages/about', 'pages::about');
+$routes->get('/pages/contact', 'pages::contact');
 
 
 /*
