@@ -1,0 +1,12 @@
+CRITICAL - 2023-06-20 16:10:06 --> Undefined variable $tasks
+in APPPATH\Views\tugas\index.php on line 36.
+ 1 APPPATH\Views\tugas\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tasks', 'C:\\xampp\\htdocs\\repo-ht\\CodeIgniter\\ci4app-pwlPt10-crud\\app\\Views\\tugas\\index.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\repo-ht\\CodeIgniter\\ci4app-pwlPt10-crud\\app\\Views\\tugas\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tugas/index', [], true)
+ 5 APPPATH\Controllers\TugasController.php(14): view('tugas/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TugasController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TugasController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\repo-ht\\CodeIgniter\\ci4app-pwlPt10-crud\\public\\index.php')
